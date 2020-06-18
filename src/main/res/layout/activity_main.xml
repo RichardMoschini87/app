@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD6D0"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/web1"
+        android:layout_width="484dp"
+        android:layout_height="878dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <Button
+        android:id="@+id/strongMan"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:background="#100202"
+        android:fontFamily="@font/aclonica"
+        android:onClick="getStrongMan"
+        android:text="Strong Man"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:radius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/strongPullUp2"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:background="#100202"
+        android:fontFamily="@font/aclonica"
+        android:text="Custom"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/records"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:background="#100202"
+        android:fontFamily="@font/aclonica"
+        android:onClick="getRecords"
+        android:text="Records"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/easyGirl"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:background="#100202"
+        android:fontFamily="@font/aclonica"
+        android:text="Easy Girl"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/sixPack"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:background="#100202"
+        android:fontFamily="@font/aclonica"
+        android:onClick="getSixPack"
+        android:text="Six Pack"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <TextView
+        android:id="@+id/training"
+        android:layout_width="345dp"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="#010E0C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
